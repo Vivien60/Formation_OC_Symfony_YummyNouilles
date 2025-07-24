@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+header .logo {
+    width: 72px;
+    border: black 1px solid;
+}
+
+header nav a{
+    text-transform:uppercase;
+}
