@@ -1,0 +1,19 @@
+@import 'goLink.css';
+
+.buyNow {
+    background-color: var(--red-highlight);
+    height: 13.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyNow__text {
+    font-family: var(--body-highlight-font), serif;
+    font-size: var(--body-highlight-font-size);
+    font-weight: var(--body-highlight-font-weight);
+    line-height: var(--body-highlight-line-height);
+    color: var(--white);
+    margin-top: 0;
+}

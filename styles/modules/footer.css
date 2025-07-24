@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--black);
+    height: 13.5rem;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer__bloc-icons {
+    font-family: var(--body-highlight-font), serif;
+    font-size: var(--body-highlight-font-size);
+    font-weight: var(--body-highlight-font-weight);
+    line-height: var(--body-highlight-line-height);
+    color: var(--white);
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer__icon {
+    margin-right: 3.5rem;
+}

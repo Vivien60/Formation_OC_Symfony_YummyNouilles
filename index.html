@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <title>Yummy Nouilles - Accueil</title>
     <link rel="icon" type="image/svg+xml" href="assets/logo_xl.svg">
-    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
-        <img src="assets/logo_xl.svg" alt="Logo Yummy Nouilles" class="logo">
-        <nav>
-            <a href="index.html">Accueil</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact</a>
+    <header class="appBar">
+        <img src="assets/logo_xl.svg" alt="Logo Yummy Nouilles" class="appBar__icon">
+        <nav class="appBar__nav">
+            <a class="appBar__nav-item active" href="index.html">Accueil</a>
+            <a class="appBar__nav-item" href="menu.html">Menu</a>
+            <a class="appBar__nav-item" href="contact.html">Contact</a>
         </nav>
     </header>
 <main>
-    <section>
-        <div>
-            <h1>YUMMY NOUILLES</h1>
-            <p>Les nouilles les plus <span>yummy</span> de tout Paris</p>
-            <a href="contact.html">Click & Collect</a>
+    <section class="hero">
+        <div class="hero__bloc-content">
+            <h1 class="hero__bloc-content--h1">YUMMY NOUILLES</h1>
+            <p>Les nouilles les plus <span class="hero__bloc-content--red">yummy</span> de tout Paris</p>
+            <a class="golink" href="contact.html">Click & Collect</a>
         </div>
         <img src="assets/logo_xl.svg" alt="Logo Yummy Nouilles" class="logo">
     </section>
-    <section>
+    <section class="adresses">
         <h2>Nos adresses</h2>
-        <div>
-            <div>
+        <div class="adresses__bloc-content">
+            <div class="adresses__bloc-item">
                 <img src="assets/img/restaurant/facade_yummy_nouille_1_1_20.jpg" alt="Restaurant Yummy Noodle">
                 <p>
                     <strong>Yummy Noodle</strong><br>
@@ -35,7 +35,7 @@
                     75010 Paris
                 </p>
             </div>
-            <div>
+            <div class="adresses__bloc-item">
                 <img src="assets/img/restaurant/facade_yummy_nouille_1_1_20.jpg" alt="Restaurant Yummy Noodle">
                 <p>
                     <strong>Yummy Noodle</strong><br>
@@ -43,7 +43,7 @@
                     75010 Paris
                 </p>
             </div>
-            <div>
+            <div class="adresses__bloc-item">
                 <img src="assets/img/restaurant/facade_yummy_nouille_1_1_20.jpg" alt="Restaurant Yummy Noodle">
                 <p>
                     <strong>Yummy Noodle</strong><br>
@@ -51,23 +51,23 @@
                     75010 Paris
                 </p>
             </div>
-        </div>
-        <div>
-            <p>
-                Commandez maintenant !
-            </p>
-            <a href="contact.html">Click & Collect</a>
         </div>
     </section>
-    <section>
+    <section class="buyNow">
+        <p class="buyNow__text">
+            Commandez maintenant !
+        </p>
+        <a class="golink" href="contact.html">Click & Collect</a>
+    </section>
+    <section class="savoirFaire">
         <h2>Notre savoir-faire</h2>
-        <p>
+        <p class="savoirFaire__content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
     </section>
-    <section>
+    <section class="social">
         <h2>Retrouvez-nous sur les réseaux sociaux</h2>
-        <div>
+        <div class="social__bloc-content">
             <img src="assets/img/social/yummy_nouilles_img_1.jpg" alt="Yummy Nouilles Social Image 1">
             <img src="assets/img/social/yummy_nouilles_img_2.jpg" alt="Yummy Nouilles Social Image 2">
             <img src="assets/img/social/yummy_nouilles_img_3.jpg" alt="Yummy Nouilles Social Image 3">
@@ -76,22 +76,23 @@
             <img src="assets/img/social/yummy_nouilles_img_6.jpg" alt="Yummy Nouilles Social Image 6">
         </div>
     </section>
-    <section>
+    <section class="contactUs">
         <h2>Contactez-nous</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p class="contactUs__text">
+            Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br>
+            Écrivez-nous à <strong>yummy@noodles.fr</strong> ou appelez-nous au <strong>01 13 86 23 42</strong>
         </p>
     </section>
 </main>
-<footer>
-    <div style="background-color: black">
-        <a href="https://www.instagram.com/yummy_nouilles/">
+<footer class="footer">
+    <div class="footer__bloc-content">
+        <a class="footer__icon" href="https://www.instagram.com/yummy_nouilles/">
             <img src="assets/icons/instagram_1.svg" alt="Logo Instagram">
         </a>
-        <a href="https://www.facebook.com/yummy_nouilles/">
+        <a class="footer__icon" href="https://www.facebook.com/yummy_nouilles/">
             <img src="assets/icons/facebook_1.svg" alt="Logo Facebook">
         </a>
-        <a href="https://www.google.com/search?q=yummy+nouilles">
+        <a class="footer__icon" href="https://www.google.com/search?q=yummy+nouilles">
             <img src="assets/icons/maps-and-flags_1.svg" alt="Logo Google Maps">
         </a>
     </div>

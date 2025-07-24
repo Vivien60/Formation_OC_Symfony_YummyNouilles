@@ -1,0 +1,10 @@
+.savoirFaire {
+    padding: 0 8.812rem;
+}
+
+.savoirFaire__content {
+    font-family: var(--body-font), serif;
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+    line-height: var(--body-line-height);
+}

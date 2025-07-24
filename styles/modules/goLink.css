@@ -1,0 +1,14 @@
+.golink {
+    font-family: var(--title-font), serif;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    background-color: var(--black);
+    color: var(--white);
+    text-decoration: none;
+    display: inline-block;
+    width: 13.5rem;
+    height: 3.5rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3.5rem;
+}
