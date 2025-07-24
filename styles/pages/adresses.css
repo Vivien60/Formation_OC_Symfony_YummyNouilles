@@ -17,3 +17,11 @@
 .adresses__bloc-item {
     text-align: left;
 }
+
+.adresses__bloc-item--title {
+    font-family: var(--body-highlight-font), serif;
+    font-size: var(--body-highlight-font-size);
+    font-weight: var(--body-highlight-font-weight);
+    line-height: var(--body-highlight-line-height);
+    color: var(--black);
+}
