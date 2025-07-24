@@ -1,0 +1,9 @@
+.contactUs {
+    padding: 0 8.812rem;
+    text-align: center;
+    font-family: var(--body-font), serif;
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+    line-height: var(--body-line-height);
+}
+

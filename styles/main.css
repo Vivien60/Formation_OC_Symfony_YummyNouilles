@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Bebas+Neue:wght@400;600&display=swap');
 /* Modules */
 @import 'modules/appBar.css';
+@import 'modules/goLink.css';
+@import 'modules/buyNow.css';
+@import 'modules/contactUs.css';
+@import 'modules/footer.css';
+/* Pages */
+@import 'pages/home.css';
+@import 'pages/adresses.css';
+@import 'pages/savoirFaire.css';
+@import 'pages/social.css';
 
 /* Design System */
 :root {
@@ -61,8 +70,12 @@ h2 {
     text-decoration: underline var(--red-highlight);
     text-underline-offset: 0.25rem;
     text-decoration-thickness: 0.188rem;
+    text-align: center;
 }
 
+section {
+    padding: 0 8.812rem;
+}
 /*header {
     display: flex;
     flex-direction: row;

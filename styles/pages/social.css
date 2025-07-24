@@ -1,0 +1,13 @@
+.social {
+    /*margin: 0 13.063rem;*/
+}
+
+.social__bloc-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4.375rem;
+    row-gap: 4.375rem;
+    column-gap: 4.375rem;
+}
